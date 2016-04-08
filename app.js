@@ -32,12 +32,12 @@ window.onload = function() {
 	if(message == "Aaron Wang is a doofus"){
 	    messagesList.innerHTML += '<li class="received"><span>Received:</span>' + "Aaron Wang is a BIG doofus" + '</li>';
 	}
-	if(message == "Will Aaron go to prom with me?"){
+	else if(message == "Will Aaron go to prom with me?"){
 	    messagesList.innerHTML += '<li class="received"><span>Received:</span>' + "Not in a million years" + '</li>';
 	}
 	else{
 	    messagesList.innerHTML += '<li class="received"><span>Received:</span>' +
-		message + "&nbsptoo" + '</li>';
+		message + "&nbsptoo!" + '</li>';
 	}
     };
 
